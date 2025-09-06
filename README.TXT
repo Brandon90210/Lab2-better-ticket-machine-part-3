@@ -12,3 +12,6 @@ previously inserting money.
 
 53: Yes because if you insert more than the ticket price it will be seen as extra to remove.
 
+58: I believe that the > version is easier as it is either enough to pay or not while the >= method can be the exact value
+
+59: 

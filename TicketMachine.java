@@ -35,9 +35,12 @@ public class TicketMachine
         balance = 0;
         total = 0;
         saving = price * discount;
-        mean = total/count;
-    }
-
+        
+    } public void affordable(int budget){
+// TODO: if price > budget System.out.println("Too expensive");
+// if budget >= price System.out.println("Just right");
+}
+    
     /**
      * @Return The price of a ticket.
      */
