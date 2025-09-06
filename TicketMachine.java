@@ -31,7 +31,7 @@ public class TicketMachine
      */
     public TicketMachine(int cost)
     {
-        price = cost;
+        int price = cost;
         balance = 0;
         total = 0;
         saving = price * discount;
@@ -52,7 +52,7 @@ public class TicketMachine
     /**
      * Return The amount of money already inserted for the next ticket.
      */
-    public int getBalance()
+    public int returnBalance()
     {
         return balance;
     }
@@ -84,6 +84,7 @@ public class TicketMachine
             System.out.println("# The BlueJ Line");
             System.out.println("# Ticket");
             System.out.println("# " + price + " cents.");
+            System.out.println("amountLeftToPay");
             System.out.println("##################");
             System.out.println();
 
@@ -104,9 +105,12 @@ public class TicketMachine
      */
     public int refundBalance()
     {
-        int amountToRefund;
-        amountToRefund = balance;
         balance = 0;
-        return amountToRefund;
+        return balance;
     }
+    public void emptyMachine(int amount)
+{
+
+total = 0;
+}
 }
